@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Izden</string>
+    <string name="title_home">Home</string>
+    <string name="scholarships">Scholarships</string>
+    <string name="profile">Profile</string>
+    <string name="qa">QA</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="socket_timeout_exception">Time out</string>
+    <string name="help">Help</string>
+    <string name="appname">RoadToUni</string>
+    <string name="slogan">Ваш проводник в удобное и быстрое путешествие к вузам мечты!</string>
+    <string name="enter">Войти</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="points">Баллы:</string>
+    <string name="in_process">В процессе</string>
+    <string name="ready">Готово</string>
+    <string name="settings">Settings</string>
+    <string name="avatar">avatar</string>
+    <string name="name_surname">Имя фамилия</string>
+    <string name="current_city">Страна, город проживания</string>
+    <string name="chosen">Избранные</string>
+    <string name="deadlines">Дедлайны</string>
+    <string name="country_of_receipt">Страна поступления</string>
+    <string name="year_of_admission">Год поступления</string>
+    <string name="speciality">Специальность</string>
+    <string name="ielts">IELTS   </string>
+    <string name="sat">SAT   </string>
+    <string name="portfolio">Портфолио:</string>
+    <string name="motivation_letter">Мотивационное письмо:</string>
+    <string name="recommendation_letter">Рекомендационное письмо:</string>
+    <string name="rating">rating</string>
+    <string name="search_hint">Я хочу найти...</string>
+    <string name="filter">Фильтр</string>
+
+
+    <string-array name="lang">
+        <item>RU</item>
+        <item>KZ</item>
+        <item>EN</item>
+    </string-array>
+
+
+
+    <string-array name="countries">
+        <item>Europe</item>
+        <item>China</item>
+        <item>USA</item>
+        <item>Canada</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+    </string-array>
+
+    <string-array name="specialities">
+        <item>IT</item>
+        <item>LAW</item>
+    </string-array>
+</resources>

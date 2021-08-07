@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/auth_fragment">
+
+    <fragment
+        android:id="@+id/auth_fragment"
+        android:name="com.example.izden.ui.authpage.AuthFragment"
+        android:label="Authentication">
+
+        <action
+            android:id="@+id/to_sign_in_fragment"
+            app:destination="@id/signin_fragment">
+        </action>
+
+
+        <action
+            android:id="@+id/to_sign_up_fragment"
+            app:destination="@id/signup_fragment"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/main_fragment"
+        android:name="com.example.izden.ui.main.MainPageFragment"
+        android:label="Main"/>
+
+    <fragment
+        android:id="@+id/signin_fragment"
+        android:name="com.example.izden.ui.signin.SignInFragment"
+        android:label="Sign in">
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_fragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/signup_fragment"
+        android:name="com.example.izden.ui.signup.SignUpFragment"
+        android:label="Sign up"/>
+
+
+
+</navigation>
